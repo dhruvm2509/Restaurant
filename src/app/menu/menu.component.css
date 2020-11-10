@@ -1,0 +1,94 @@
+/* Banner css starts*/
+
+.container{
+    display: block;
+    background-image: url('/assets/all-bg.jpg') ;
+    height: 600px;
+    
+}
+.container h1{
+    padding:250px 200px 0px 300px;
+    color: cornsilk; font-size: 5em;
+    font-family: 'rubik'; font-weight: 800;
+}
+#butn1{
+    margin-left: 200px; font-size: 0.4em; padding: 0px 15px 0px 15px; margin-top: 50px;
+    font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #d65106; border: 0cm;
+}
+#butn1:hover{background-color: black;}
+
+/* Banner css ends */
+
+/* Menu css starts */
+
+.menu{display: block;margin-top: 50px; margin-bottom: 50px;}
+.heading{display: inline-block; margin: 50px; width: 100%;}
+.heading h3{
+    font-size: 65px;color: chocolate;font-weight: 700;text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.blog{display: inline-block; width: 30%; margin-left: 30px; position: relative;}
+.imag{display: block;width: 100%;}
+.blog img{width: 100%; height: 300px; margin: 15px;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  
+    box-shadow:         8px 8px 3px 2px #ccc;
+}
+.blog-content h4{color: darkturquoise; margin-top: 10px;}
+.blog-content{
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(180, 37, 37);
+    background: rgba(63, 54, 4, 0.5); /* Black see-through */
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: gold;
+    font-size: 22px;
+    padding-left: 10px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+#butn{
+    margin:-30px 0px 20px 0px; font-size: 1em; padding: 0px 15px 0px 15px;
+    font-weight: 500; font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #d65106; border: 0cm;color: white;
+    box-sizing: border-box;border-radius: 20px;
+}
+#butn:hover{background-color:white;color: #d65106;font-weight: 600;} 
+             
+.blog:hover .blog-content {opacity: 1;}
+/* Menu css ends */
+
+/* quote css starts */
+
+.quote{
+    display: block;
+    background-image: url('/assets/bg_4.jpg') ;
+    height: 400px;
+    width: 100%;
+}
+.quote h2{
+    font-size: 3em;
+    line-height: 65px;
+    font-family: cursive;
+    font-weight: 600;
+    text-align: center;
+    color: #d65106;
+    padding: 50px 40px 0px 40px;
+    margin-bottom: 30px;
+}
+.quote span{
+    margin-left: 500px;
+    font-size: 3.5em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: firebrick;
+    font-weight: 550;
+}
+
+/* quote css ends */

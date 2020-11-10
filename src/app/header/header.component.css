@@ -1,0 +1,20 @@
+/* css for navbar */
+.nav{display: inline-block;}
+.navbar{background-color:#d65106; color: blueviolet; box-sizing: border-box; border-radius: 0px 0px 100px 100px;}
+ul{padding: 10px;}
+.navbar-brand{font-family: cursive;}
+
+/* fixing header location on top */
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+
+/* css for nav items */
+.nav-item{padding-left: 10px;}
+ul li a{font-size: 1.2em; color: white; padding-right: 10px;}
+ul li a:hover{
+	box-sizing: border-box;transition-duration: 0.5s; padding-right: 10px;
+	border-radius: 15px;font-weight: 500; background-color: white;color:#d65106;
+}
